@@ -6,10 +6,35 @@
         <script src="script.jpg"></script>
         <link rel="stylesheet" type="text/css" href="styles.css">
     </head>
-    <body>
-        <h1>My test website</h1>
+<!-- the header or navigation bar -->
+<body>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+    <section id="landing">
+        <!-- the a command wraps around the first header -->
+        <a href="gallery.html">
+            <h1>My test website</h1>
+        </a>
+        
+        <img src="public/imgs/silly-billy-v0-i5qdyqwxbc9b1.webp" alt="silly cat">
         <p>My first paragraph</p>
         <p>My second paragraph</p>
-        <p>My third paragraph</p>
+        
+        <!-- linking the paragraph to the about page -->
+        <a href="#about">
+            <p>See my about section</p>
+        </a>
+        <a href="gallery.html">
+            <button>see my gallery</button>
+        </a>
+
+        <!-- sections are deliberately making a new section, divs are for almost anything for containers -->
+        <section id="about">
+            <h2>About me</h2>
+            <p>Hi everyone this is me Shirley!!!!!</p>
+        </section>
     </body>
 </html>
